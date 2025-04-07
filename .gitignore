@@ -1,0 +1,122 @@
+.temp/
+
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg-info/
+.eggs/
+*.log
+*.sqlite3
+*.db
+*.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+.env/
+env.bak/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Pyright
+pyrightconfig.json
+
+# Coverage reports
+.coverage
+coverage.*
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+test-results/
+*.cover
+*.py,cover
+
+# ---------------------
+# OS Files
+# ---------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*
+.nfs*
+
+# ---------------------
+# IDEs
+# ---------------------
+
+# VSCode
+.vscode/
+
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------
+# Project-specific
+# ---------------------
+
+# Builds
+build/
+dist/
+*.egg
+*.whl
+
+# PyInstaller
+*.spec
+
+# Misc
+*.bak
+*.swp
+*.swo
+*.orig
+*.tmp
+*~
+
+# Logs
+*.log
+
+# Lock files
+poetry.lock
+yarn.lock
+package-lock.json
