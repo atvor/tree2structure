@@ -1,9 +1,7 @@
 [project]
 name = "tree2structure"
-version = "0.1.0"
+version = "0.1.1"
 description = "Convert tree-style folder structure into real files and folders with comments"
-homepage = "https://github.com/atvor/tree2structure.git"
-repository = "https://github.com/atvor/tree2structure.git"
 keywords = ["parser", "project scaffolding", "file generator"]
 authors = [
     { name = "Anar Dzhafarov", email = "a@dzhfrv.com" }
@@ -18,6 +16,9 @@ dependencies = [
 
 [tool.poetry]
 packages = [{ include = "tree2structure" }]
+homepage = "https://github.com/atvor/tree2structure.git"
+repository = "https://github.com/atvor/tree2structure.git"
+documentation = "https://github.com/atvor/tree2structure#readme"
 
 [tool.poetry.dependencies]
 python = "^3.8"
